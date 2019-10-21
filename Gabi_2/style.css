@@ -1,0 +1,122 @@
+.div1 {
+  	
+  background: url("imagenes/fondo1.png" );
+  height: 100vh;
+  width: 100%;
+  
+ 
+
+
+}
+
+.div2 {
+       background: url("imagenes/fondo2.png" );
+		 height: 100vh;
+		 width: 100%;
+}
+
+.div {
+     background: url("imagenes/fondo3.png" );
+		 height: 100vh;
+		 width: 100%;
+}
+
+.div4 {
+  background: url("imagenes/score.jpg" );
+height: 100vh;
+width: 100%;
+}
+
+
+
+.btn{
+  background: rgb(236, 37, 15)  ;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 4px black;
+  width: 150px;
+  height: 60px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.h1{
+
+  color: #FF0000;
+
+  font-size: 60px;
+  text-shadow: 2px 2px 4px black;
+  text-align:center;
+
+
+}
+
+.h2{
+
+color: #FFFFFF;
+
+-webkit-text-stroke: 2px rgb(15, 15, 15);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+font-size: 70px;
+text-align:center;
+
+}
+.name{
+
+  color:#000000;
+  
+  -webkit-text-stroke: 2px rgb(250, 233, 233);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+  font-size: 50px;
+  text-align:center;
+  
+  }
+
+.h3{
+
+  color: #FF0000;
+  -webkit-text-stroke: 1.5px rgb(10, 10, 10);
+  font-size: 50px;
+  text-shadow: 2px 2px 4px black;
+  text-align:center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  }
+  .h4{
+
+    color:#000000;
+    font-size: 25px;
+    background-color: orange;
+    text-align:center;
+    
+    }
+    .h5{
+
+      color: black;
+      -webkit-text-stroke: 1px rgb(250, 233, 233);
+      font-size: 40px;
+      text-align:center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      
+      }
+    .p{
+
+      color:#fcf7f7;
+      -webkit-text-stroke: 1px rgb(250, 233, 233);
+      font-family: 'Times New Roman';
+      font-size: 40px;
+      text-align:center;
+      background-color: #000000;
+    }
+    .score{
+
+      color:#000000;
+      -webkit-text-stroke: 1px rgb(250, 233, 233);
+      font-family: 'Times New Roman';
+      font-size: 40px;
+      text-align:center;
+      background-color: white;
+    }
+        

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia de Super Heroes</title>
+     <link rel= "stylesheet" href="style.css">
+</head>
+<body >
+  <!----------------------------------------------Home  ------------------------------------------->
+  
+  <div align= "center" id= "home" class="div1" > 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>    
+  <br>    
+ <h1 class= "h1">Bienvenid@</h1>
+ <h1 >Ingresa tu nombre <input type= "text" id= "name" value="" ></h1>
+ <br>
+  
+ <input type= "button" value= "Play" onclick= "ingresar()" class= "btn" />
+ <br>
+ <br>
+ <br>
+ <br> 
+ <br>
+ <br>
+</div>
+
+<!------------------------------------------------------------ welcome------------------------------------------->
+
+
+<div align= "center" id= "welcome"  class= "div2">
+<br>
+<br>
+<br>
+<h1 class= "h2" id= "name_mensaje"> </h1>
+<h1 class="p" > Escoge tu Universo cinematográfico favorito</h1>
+<br>
+<input type= "button"  value= "DC" onclick= "triviaDC()" class= "btn" />
+<input type= "button"  value= "Marvel" onclick= "triviaMarvel()"  class= "btn" > 
+</div>
+
+<!------------------------------------------------------------ DC ------------------------------------------->
+<div align="center" id= "DC" class="div"> 
+  <br>
+  <br>
+<h1 class="h3"> Trivia DC </h1> 
+<p class="h4"> 1- ¿Cómo se llama el hijo de Superman?</p>
+
+<input type= "radio" name = "dc_one" value = "1"> a) Jonathan
+<input type= "radio" name = "dc_one" value = "0"> b) Coonor
+<input type= "radio" name = "dc_one" value = "0"> c) Clark
+<input type= "radio" name = "dc_one" value = "0"> d) Ricky
+
+<p  class="h4"> 2- ¿Qué encuentra Batman en la baticueva tras la aparición de Wally West? </p>
+
+<input type= "radio" name = "dc_two" value = "0"/> a) Mascara
+<input type= "radio" name = "dc_two" value = "1"/> b) Un Botón
+<input type= "radio" name = "dc_two" value = "0"/> c) Carta de su Padre
+<input type= "radio" name = "dc_two" value = "0"/> d) Una Billetera
+
+<p  class="h4"> 3- ¿Dónde nació Aquaman?</p>
+
+<input type= "radio" name = "dc_three" value = "0"/> a) Lima
+<input type= "radio" name = "dc_three" value = "0"/> b) EEUU
+<input type= "radio" name = "dc_three" value = "1"/> c) La ciudad perdida de Atlantis
+<input type= "radio" name = "dc_three" value = "0"/> d) Inglaterra
+<br>
+<br>
+<input type= "button" value= "Finalizar trivia"  class = "btn" onclick= "resultadoDC()"/>
+</div>
+<!-----------------------------------------------------------MARVEL ------------------------------------------->
+<div align="center" id= "Marvel" class="div"> 
+        <br>
+        <br>
+        <h1 class="h3">Trivia Marvel</h1> 
+
+        <p class="h4"> 1-¿Quién es el mejor amigo de Capitán América?</p>
+        
+        <input type= "radio" name = "marvel_one"   value = "1"> a) Bucky Barnes
+        <input type= "radio" name = "marvel_one"   value = "0"> b) Tony Stark
+        <input type= "radio" name = "marvel_one"   value = "0"> c) Bruce Banner
+        <input type= "radio" name = "marvel_one"   value = "0"> d) Peter Parker
+        
+        <p class="h4"> 2- ¿Cuántas gemas del infinito existen?</p>
+        
+        <input type= "radio"  name = "marvel_two"   value = "0"> a) 4
+        <input type= "radio"  name = "marvel_two"   value = "0"> b) 5
+        <input type= "radio"  name = "marvel_two"   value = "1"> c) 6
+        <input type= "radio"  name = "marvel_two"   value = "0"> d) 8
+
+        <p class="h4"> 3- ¿ En que película se vio por primera vez la gema del espacio?</p>
+          
+        <input type= "radio"  name= "marvel_three" value = "0"> a) Deedpool
+        <input type= "radio"  name= "marvel_three" value = "1"> b) Capitán América "El primer vengador"
+        <input type= "radio"  name= "marvel_three" value = "0"> c) Thor 1
+        <input type= "radio"  name= "marvel_three" value = "0"> d) Iron man 1
+        <br>
+        <br>
+        <input type= "button" value= "Finalizar trivia" onclick= "resultadoMarvel()"  class = "btn"> 
+        <br>
+        <br>
+        </div>
+
+<!-----------------------------------------------------------resultados ------------------------------------------->
+
+<div align ="center" id= "resultados" class="div4"> 
+  <br>
+  <br>
+<h1 class= "score"> Triviador tus resultados son:</h1>
+  <br>
+  <br>
+  <br>
+  <br>
+<img src="imagenes/resultado.gif" width="120px" height="200px">
+<p class= "h5">Respuestas Correctas:  <spam id= "aciertosMensajes"></spam> </p>
+<input type= "button" value= "Volver a Jugar" onclick= "volver()"  class = "btn"> 
+
+</div>
+
+<script src="app.js"></script>
+
+
+</body>
+</html>
